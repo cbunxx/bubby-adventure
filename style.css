@@ -1,8 +1,18 @@
 html, body {
+/*    max-width: 200px; */
+/*  max-height: 200px; */
+  height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   background-color: black;
 }
+
+body {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
 canvas {
   display: block;
   border: 10px dotted white;
